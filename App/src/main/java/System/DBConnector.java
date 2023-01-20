@@ -5,7 +5,17 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DBDespather {
+
+public class DBConnector {
+    private static DBConnector dbConnector;
+    public DBConnector(){
+    }
+    public static DBConnector getDbConnector(){
+        if (dbConnector == null){
+            dbConnector = new DBConnector();
+        }
+        return dbConnector;
+    }
     static final String URL = "jdbc:mysql://localhost/test_db";
     static final String USER = "root";
     static final String PASS = "GGG123GGg";

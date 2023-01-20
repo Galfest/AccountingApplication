@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d69e87d4-8608-4928-802e-89f7fd542beb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/App/src/main/java/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/src/main/java/System/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/java/Commands/SQLCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/java/System/DBDespather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/resources/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d69e87d4-8608-4928-802e-89f7fd542beb" name="Changes" comment="v1">
+      <change afterPath="$PROJECT_DIR$/App/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/System/ConsoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/src/main/java/System/StartDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/src/main/java/System/DBConnnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/src/main/java/System/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/DB/src/main/java/System/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/src/main/java/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/main/java/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/src/main/java/Commands/SQLCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/DB/src/main/java/Commands/SQLCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/src/main/java/System/DBDespather.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/main/java/System/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/src/main/java/System/JDBC.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <module name="App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +76,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674108086305</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1">
+      <created>1674126348020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674126348020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
   </component>
 </project>
