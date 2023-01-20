@@ -7,7 +7,6 @@ public class ConsoleMenu {
 
     public static void consoleMenu() {
         System.out.println("Убедитесь что MySQL Server запущен.\nЕсли готовы продолжать, введите Да");
-//        new Scanner(System.in);
         String answer = new Scanner(System.in).nextLine();
         if (answer.equals("Да")) {
             DBConnector.connectToDB();
@@ -17,7 +16,7 @@ public class ConsoleMenu {
             switch (use) {
                 case (1):
                     System.out.println("Введите номер команды:");
-                    int answer1 = new Scanner(System.in).nextInt();
+//                    int answer1 = new Scanner(System.in).nextInt();
                     System.out.println("1");
                     break;
                 case (2):
@@ -30,7 +29,6 @@ public class ConsoleMenu {
                     int answer3 = new Scanner(System.in).nextInt();
                     System.out.println("3");
                     break;
-
             }
         }
         else {
